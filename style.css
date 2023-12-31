@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+    background:black;
+    overflow:hidden;
+    text-align: center;
+    margin:0;
+  }
+  
+  #countdown {
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+  }
+  
+  .seconds {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+  }
+  
+  .second {
+    padding-top: 400px;
+    font-size: 200px;
+    color: azure;
+  }
+
+  canvas{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background:#000;
+  }
